@@ -1,0 +1,195 @@
+/*ПОДКЛЮЧЕНИЕ ШРИФТОВ*/
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: KaushanScript-Regular;
+    src: url(../font/KaushanScript-Regular.otf);
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(../font/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+
+header {
+    display: inline-block;
+    margin-left: 10px;
+    background: #ffffff;
+    position: relative;
+    font-family: 'Poiret One', cursive;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+/*.header_left {
+    bsckground: url(../images/fon.jpg);
+    width: 25%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: justify;
+    display: inline-block;
+} */
+
+.header_left {
+    word-wrap: break-word;
+}
+
+.header_left img {
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+    text-align: left;
+    margin-left: -30px;
+    position: relative;
+}
+
+img {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+
+.header_text {
+    display: inline-block;
+    position: relative;
+    left: -230px;
+    top: -155px;
+}
+
+.header_text_font {
+    font-weight: 600;
+}
+
+
+.header_right {
+    font-family: 'Limelight', cursive;
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    font-size: 54px;
+    color: #2b3547;
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+
+main {
+    background: #a3acbc;
+    font-family: 'Cormorant Unicase', serif;
+}
+
+aside {
+    margin: 60px;
+    padding-bottom: 30px;
+}
+
+form {
+    margin: 60px;
+    display: inline-block;
+    width: 40%;
+}
+
+.graphic {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.znachenie {
+    margin-bottom: 1px;
+
+}
+
+label {
+    margin: 5px;
+}
+
+
+button {
+    background: #2b3547;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 7px;
+    transition: initial;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #f4eba0, #ab9c57);
+}
+
+
+#error_x_msg, #error_y_msg, #error_r_msg, .error_msg {
+    color: #ef6360;
+    font-weight: 500;
+}
+
+.game_font {
+    color: #ef6360;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+}
+
+
+.answer {
+    display: inline-block;
+    width: 49.9%;
+    text-align: left;
+}
+
+.answer input {
+    width: 35%;
+}
+
+
+footer {
+    background: #2b3547;
+    height: 300px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+footer .contacts {
+    margin: 60px;
+    color: white;
+
+}
+
+.contacts_name {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+}
+
+footer a {
+    margin: 60px;
+    color: white;
+}
+
+footer .top {
+    margin-left: 1100px;
+}
+
+
+.h {
+    background: red;
+}
+
+

@@ -1,0 +1,25 @@
+<karlsons>
+    <karlson>
+        <name>сладкоежка</name>
+        <age>100</age>
+        <salary>200000</salary>
+    </karlson>
+
+    <karlson>
+        <name>белобок</name>
+        <age>1010</age>
+        <salary>1200000</salary>
+    </karlson>
+
+    <karlson>
+        <name>сладк1оежка</name>
+        <age>101`0</age>
+        <salary>2001000</salary>
+    </karlson>
+
+    <karlson>
+        <name>сладкоежка</name>
+        <age>100</age>
+        <salary>200000</salary>
+    </karlson>
+</karlsons>
